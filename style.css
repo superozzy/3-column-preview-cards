@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 15px;
+    background-color:hsl(0, 0%, 95%) ;
+  
+}
+.container{
+  
+    margin:0 auto;
+    max-height: 100vh;
+    justify-content: center;
+  
+   
+  
+}
+.boxOfboxes{
+    display: flex;
+    flex-direction: column;
+     max-width:550px;
+     margin-bottom:1rem;
+     padding:3rem;
+   
+}
+
+.box{
+    padding:2rem;;
+    
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight:  400;
+
+  
+   
+   
+}
+.orange{
+    
+    border-top-left-radius: 5px;
+   
+    border-top-right-radius: 5px;
+    background-color: hsl(31, 77%, 52%);
+}
+.blue{
+    background-color: hsl(184, 100%, 22%);;
+}
+.green{
+    background-color:  hsl(179, 100%, 13%);
+    border-bottom-left-radius: 5px;;
+    border-bottom-right-radius: 5px;;
+}
+
+.heading{
+    color:  hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 400;
+    font-size:22px;
+    text-transform: uppercase;
+    margin:1.5rem 0 1.5rem 0;
+}
+
+.info{
+ 
+    font-size:15px;
+    line-height:2rem;
+    color: hsla(0, 0%, 100%, 0.75);
+
+}
+
+
+.button.orange:hover{
+    border: 2px solid white;
+    background-color:orange;
+   color:white;
+}
+.orange button{
+    color:  hsl(31, 77%, 52%)
+}
+
+.blue button{
+    color: hsl(184, 100%, 22%);
+}
+
+.green button{
+    color: hsl(179, 100%, 13%);
+}
+
+
+button{
+    padding: 1rem;
+    background-color:hsl(0, 0%, 95%);
+    width:160px;
+    height: 55px;
+    border-radius: 50px;
+    margin-top:2rem ;
+    margin-bottom:2rem;
+    cursor: pointer;
+    text-align: center;
+    font-size: 18px;;
+  
+}
+button:hover{
+    border:2px solid  white;
+    color:  hsl(0, 0%, 95%);
+}
+
+.green button:hover{
+   background-color: hsl(179, 100%, 13%);
+    
+}
+.blue button:hover{
+    background-color: hsl(184, 100%, 22%);
+}
+.orange button:hover{
+    background-color:hsl(31, 77%, 52%);
+}
+
+@media only screen and (min-width: 900px) {
+    .container{
+        margin: 0 auto;
+        width:900px;
+        height: 100%;;
+       
+    }
+    .boxOfboxes{
+        display: flex;
+        flex-direction: row;
+       max-width: 900px;
+       margin-top: 4rem;;
+       height: 600px;
+
+       
+    
+    }
+    
+   .orange{
+       border-bottom-left-radius: 8px;
+      
+    
+   }
+   .green{
+       border-top-right-radius: 8px;;
+   }
+
+   .button{
+       margin-top:1rem;
+   }
+
+   .info{
+       line-height: 2rem;
+       padding: 0.1rem;
+     
+   }
+   
+}
