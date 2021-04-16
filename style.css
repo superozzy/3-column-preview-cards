@@ -25,6 +25,7 @@ body{
      max-width:550px;
      margin-bottom:1rem;
      padding:3rem;
+    margin:0 auto;
    
 }
 
@@ -100,7 +101,8 @@ button{
     margin-bottom:2rem;
     cursor: pointer;
     text-align: center;
-    font-size: 18px;;
+    font-size: 18px;
+    border:none;
   
 }
 button:hover{
